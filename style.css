@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+/* * {
+    outline: 1px solid #f00 !important;
+  } */
+.logo {
+    margin: 0;
+    padding: 0;
+    height: 71px;
+}
+
+.logoimage {
+    margin-left: 59px;
+    height: 71px;
+}
+
+.header {
+    display: flex;
+}
+
+.header-texts h3 {
+    margin-top: 26px;
+}
+
+.navtext1 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 29px;
+}
+
+.navtext1 li {
+    padding-left: 60px;
+}
+
+.navtext1 li:hover {
+    text-decoration: underline;
+}
+
+.navtext2 {
+    display: flex;
+    padding-left: 16rem;
+    list-style-type: none;
+    margin-top: 29px;
+
+}
+
+.navtext2 li {
+    padding-left: 12px;
+}
+
+.sectionsize {
+    width: 1382px;
+    margin-left: 79px;
+}
+
+.surface-laptop-image {
+    background-image: url("images/microsoft.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.surface-text {
+    padding-top: 150px;
+    padding-left: 58px;
+    font-size: 30px;
+    align-items: center;
+
+
+}
+
+.surface-p {
+    margin-top: -36px;
+    font-size: 22px;
+    align-items: center;
+    padding-left: 58px;
+}
+
+.surface-button button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 55px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.surface-button button:hover {
+    text-decoration: underline;
+}
+
+.image-images {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left:30px;
+}
+
+.windows-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.windows-icons img {
+    padding-top: 22px;
+    margin-left: 82px;
+
+}
+.red {
+    color: rgb(149, 12, 23);
+    font-weight: bold;
+}
+.text-window {
+    margin-left: 62px;
+    color: rgb(149, 12, 23);
+    font-weight: bold;
+}
+
+.text-tab {
+    margin-left: 48px;
+    color: rgb(149, 12, 23);
+    font-weight: bold;
+}
+
+.xbox-text {
+    margin-left: 42px;
+    color: rgb(149, 12, 23);
+    font-weight: bold;
+}
+
+.window-text {
+    margin-left: 32px;
+    color: rgb(149, 12, 23);
+    font-weight: bold;
+}
+
+.surface-pro-7 {
+    height: 400px;
+    width: 340px;
+}
+
+.surface-pro-7-img {
+    background-image: url("images/first.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+
+
+}
+
+.surface-pro-7-img p {
+    width: 12px;
+}
+
+.game-pass {
+    display: flex;
+    height: 417px;
+    flex-direction: column;
+}
+
+.game-pass-img {
+    background-image: url("images/second.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+}
+
+
+.microsoft365 {
+    display: flex;
+    height: 417px;
+    flex-direction: column;
+}
+
+.img-microsoft365 {
+    background-image: url("images/third.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+
+}
+
+.edge {
+    display: flex;
+    height: 417px;
+    flex-direction: column;
+}
+
+.img-edge {
+    background-image: url("images/four.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+
+
+}
+
+.img-onedrive {
+    background-image: url("images/microsoft-onedrive.png");
+    height: 510px;
+    width: 100%;
+    background-size: 100% 100%;
+    justify-content: center;
+
+}
+
+.onedrive-text h2 {
+    display: flex;
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 60px;
+
+
+}
+
+.onedrive-text p {
+    padding-left: 60px;
+}
+
+.onedrive-text button {
+    margin-left: 60px;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.section4-images {
+    display: flex;
+}
+
+.business-img {
+    background-image: url("images/imagefirst.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+}
+
+.business-365-img {
+    background-image: url("images/imagesecond.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-left: 49px;
+}
+
+.teams-img {
+    background-image: url("images/imagethird.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-left: 69px;
+}
+
+.cloud-img {
+    background-image: url("images/imagefourth.png");
+    height: 200px;
+    width: 300px;
+    background-size: 100% 100%;
+    margin-left: 69px;
+}
+.banner{
+    background-color: #f2f2f2;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    height: 138px;
+}
+.heading {
+    margin-top: 10px;
+    margin-left: 135px;
+    
+}
+.heading h2{
+    font-family: bold;
+    font-size: 35px;
+    color:rgb(0, 0, 0);
+}
+.heading p{
+    margin-top: -23px;
+}
+
+.categories {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(0, 93, 166);
+    font-size: 16px;
+}
+
+.footer {
+    margin-top:25px;
+    background-color: #f2f2f2;
+    height: 300px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subfooter {
+    display: flex;
+}
+
+.footer-list {
+    display: flex;
+    margin-left: 12px;
+}
