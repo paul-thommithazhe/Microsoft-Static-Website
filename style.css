@@ -10,7 +10,9 @@ body {
     padding: 0;
     height: 71px;
 }
-
+.fa{
+    margin-left: 12px;
+}
 .logoimage {
     margin-left: 59px;
     height: 71px;
@@ -42,7 +44,7 @@ body {
 
 .navtext2 {
     display: flex;
-    padding-left: 16rem;
+    padding-left: 13rem;
     list-style-type: none;
     margin-top: 29px;
 
